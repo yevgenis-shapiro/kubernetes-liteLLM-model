@@ -2,6 +2,8 @@
 
 
 ## Kubernetes AI Foundation LiteLLM | ☸️
+LiteLLM is an open-source LLM gateway that provides a unified interface to over 100 different large language models (LLMs) from various providers like OpenAI, Anthropic, and Cohere, allowing developers to interact with them using a single, OpenAI-compatible API format. It simplifies integration by handling the complexities of different model providers, offering features such as load balancing, cost tracking, authentication, and logging. 
+
 Call all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq etc.] 
 
 🎯 Features
