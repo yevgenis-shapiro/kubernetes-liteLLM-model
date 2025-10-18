@@ -1,4 +1,5 @@
-<img width="286" height="77" alt="image" src="https://github.com/user-attachments/assets/f767fde7-8419-410f-bc34-535a9bbbd983" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/021ee030-2ec5-4d59-bc58-5b57db042813" />
+
 
 
 ## Kubernetes AI Foundation LiteLLM | ☸️
