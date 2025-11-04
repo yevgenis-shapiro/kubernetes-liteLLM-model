@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7e3cbf88-a838-449e-b315-298b5b1ee0fd" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8897b529-d85d-4200-ae83-1846a8e2a9cc" />
 
 
 ## Generative AI | LiteLLM  ☸️
