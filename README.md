@@ -1,4 +1,5 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8897b529-d85d-4200-ae83-1846a8e2a9cc" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/02312552-c193-4ccb-8566-de20b0971fdb" />
+
 
 
 ## LiteLLM | Kubernetes ☸️
@@ -9,12 +10,7 @@ LiteLLM is an open-source LLM gateway that provides a unified interface to over 
 🧱 Features
 ```
 ✅ Unified API (OpenAI-compatible)
-   ✔ OpenAI
-   ✔ Azure OpenAI
-   ✔ Anthropic (Claude)
-   ✔ AWS Bedrock (Claude, Llama, Titan)
-   ✔ Google Gemini
-   ✔ Mistral, Cohere, Groq, Ollama, etc.
+   🔌 OpenAI ,Azure , AWS Bedrock (Claude, Llama, Titan) , Anthropic ,Google Gemini
 ✅ LLM Gateway (Server Mode)
    🔁 Fallbacks (e.g., GPT-4 → Claude → Llama)
    ⚖️ Load balancing
@@ -28,7 +24,7 @@ LiteLLM is an open-source LLM gateway that provides a unified interface to over 
 
 
 
-🔨 Config | Model routing config
+🚀 Config | Model routing config
 ```
 model_list:
   - model_name: gpt-4-prod
