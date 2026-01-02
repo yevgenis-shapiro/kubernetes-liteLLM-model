@@ -33,7 +33,7 @@ LiteLLM is an open-source LLM gateway that provides a unified interface to over 
 | `API Gateway` |REST API |
 | `Argo Events` | Event-driven workflow automation |
 | `LiteLLM ` |  lightweight, powerful abstraction layer that unifies LLM API calls across providers |
-| `Open Web UI ` |  WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline |
+| `Open Web UI ` |  WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform  |
 
 
 
