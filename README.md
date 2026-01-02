@@ -22,8 +22,21 @@ LiteLLM is an open-source LLM gateway that provides a unified interface to over 
 ```
 
 
+#### Modules
+This setup is composed of several sub-modules that work together to create a complete web application environment:
 
-🚀 Config | Model routing config
+| Module | Description |
+|--------|-------------|
+| `CloudFront` | CDN distribution with Origin Access Identity for secure S3 access |
+| `EKS` | User pool for authentication with email verification |
+| `S3` | GraphQL API with real-time subscriptions |
+| `API Gateway` |REST API with Cognito authorization |
+| `Argo Events` | Message queue for asynchronous processing |
+| `LiteLLM ` | Function triggered by SQS messages |
+
+
+
+🔨 Example :  Model routing config
 ```
 model_list:
   - model_name: gpt-4-prod
@@ -42,22 +55,3 @@ router_settings:
       - gpt-4-fallback
 ```     
 
-
-
-🔨 Example : 
-```
-from litellm import completion
-import os
-## set ENV variables
-os.environ["OPENAI_API_KEY"] = "your-openai-key"
-os.environ["ANTHROPIC_API_KEY"] = "your-anthropic-key"
-
-messages = [{ "content": "Hello, how are you?","role": "user"}]
-
-# openai call
-response = completion(model="openai/gpt-4o", messages=messages)
-
-# anthropic call
-response = completion(model="anthropic/claude-sonnet-4-20250514", messages=messages)
-print(response)
----
