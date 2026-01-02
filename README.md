@@ -27,12 +27,12 @@ This setup is composed of several sub-modules that work together to create a com
 
 | Module | Description |
 |--------|-------------|
-| `CloudFront` | CDN distribution with Origin Access Identity for secure S3 access |
-| `EKS` | User pool for authentication with email verification |
-| `S3` | GraphQL API with real-time subscriptions |
-| `API Gateway` |REST API with Cognito authorization |
-| `Argo Events` | Message queue for asynchronous processing |
-| `LiteLLM ` | Function triggered by SQS messages |
+| `CloudFront` | Fast, globally distributed Content Delivery Network|
+| `EKS` | Elastic Kubernetes Service, is a fully managed service by Amazon Web Services |
+| `Minio` | S3 Object Storage |
+| `API Gateway` |REST API |
+| `Argo Events` | Event-driven workflow automation |
+| `LiteLLM ` |  lightweight, powerful abstraction layer that unifies LLM API calls across providers |
 
 
 
