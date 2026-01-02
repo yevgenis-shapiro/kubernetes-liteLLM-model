@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d12b54b2-bfc0-4c06-8f0c-0d6369eff938" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a0f775fa-6e1f-4793-ae27-b4d2191285af" />
 
 
 ## LiteLLM | Kubernetes ☸️
