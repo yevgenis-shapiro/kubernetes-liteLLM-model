@@ -22,8 +22,7 @@ LiteLLM is an open-source LLM gateway that provides a unified interface to over 
 ```
 
 
-#### Modules
-This setup is composed of several sub-modules that work together to create a complete web application environment:
+#### 
 
 | Module | Description |
 |--------|-------------|
